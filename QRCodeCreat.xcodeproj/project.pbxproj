@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A837CF241BE1C44600EC3152 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = A837CF231BE1C44600EC3152 /* 1.png */; };
+		A86AD7571BE343A400EA23C8 /* 694A0F66-B45E-45C6-8C0E-DF3E8833E80B.png in Resources */ = {isa = PBXBuildFile; fileRef = A86AD7561BE343A400EA23C8 /* 694A0F66-B45E-45C6-8C0E-DF3E8833E80B.png */; };
 		A88260E31BE09D8100D7498A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A88260E21BE09D8100D7498A /* main.m */; };
 		A88260E61BE09D8100D7498A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A88260E51BE09D8100D7498A /* AppDelegate.m */; };
 		A88260E91BE09D8100D7498A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A88260E81BE09D8100D7498A /* ViewController.m */; };
-		A88260EC1BE09D8100D7498A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A88260EA1BE09D8100D7498A /* Main.storyboard */; };
 		A88260EE1BE09D8100D7498A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A88260ED1BE09D8100D7498A /* Assets.xcassets */; };
 		A88260F11BE09D8100D7498A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A88260EF1BE09D8100D7498A /* LaunchScreen.storyboard */; };
 		A88260FC1BE09D8100D7498A /* QRCodeCreatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A88260FB1BE09D8100D7498A /* QRCodeCreatTests.m */; };
 		A88261071BE09D8100D7498A /* QRCodeCreatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A88261061BE09D8100D7498A /* QRCodeCreatUITests.m */; };
+		A88261161BE0A9E700D7498A /* UIImage+RoundRect.m in Sources */ = {isa = PBXBuildFile; fileRef = A88261151BE0A9E700D7498A /* UIImage+RoundRect.m */; };
+		A88261191BE0B54500D7498A /* YYQRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = A88261181BE0B54500D7498A /* YYQRCode.m */; };
+		B893A6B14B6BC34A5D54B804 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F8A34B6DAFC2FD5C091F7804 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +39,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		53DA4A19116A032C608808E3 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		A837CF231BE1C44600EC3152 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		A86AD7001BE2F9AC00EA23C8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A86AD7021BE2F9B600EA23C8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A86AD7041BE2F9BF00EA23C8 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		A86AD7061BE2F9CB00EA23C8 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		A86AD7081BE2F9D500EA23C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A86AD70A1BE2F9DC00EA23C8 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		A86AD70C1BE2F9E500EA23C8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A86AD70E1BE2F9EB00EA23C8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A86AD7561BE343A400EA23C8 /* 694A0F66-B45E-45C6-8C0E-DF3E8833E80B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "694A0F66-B45E-45C6-8C0E-DF3E8833E80B.png"; sourceTree = "<group>"; };
 		A88260DE1BE09D8100D7498A /* QRCodeCreat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRCodeCreat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A88260E21BE09D8100D7498A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A88260E41BE09D8100D7498A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A88260E51BE09D8100D7498A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A88260E71BE09D8100D7498A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A88260E81BE09D8100D7498A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A88260EB1BE09D8100D7498A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A88260ED1BE09D8100D7498A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A88260F01BE09D8100D7498A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A88260F21BE09D8100D7498A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +65,12 @@
 		A88261021BE09D8100D7498A /* QRCodeCreatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QRCodeCreatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A88261061BE09D8100D7498A /* QRCodeCreatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QRCodeCreatUITests.m; sourceTree = "<group>"; };
 		A88261081BE09D8100D7498A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A88261141BE0A9E700D7498A /* UIImage+RoundRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RoundRect.h"; sourceTree = "<group>"; };
+		A88261151BE0A9E700D7498A /* UIImage+RoundRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RoundRect.m"; sourceTree = "<group>"; };
+		A88261171BE0B54500D7498A /* YYQRCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYQRCode.h; sourceTree = "<group>"; };
+		A88261181BE0B54500D7498A /* YYQRCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYQRCode.m; sourceTree = "<group>"; };
+		DE3F2A5B5D0864E9E998883B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		F8A34B6DAFC2FD5C091F7804 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B893A6B14B6BC34A5D54B804 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,10 +102,20 @@
 		A88260D51BE09D8100D7498A = {
 			isa = PBXGroup;
 			children = (
+				A86AD70E1BE2F9EB00EA23C8 /* UIKit.framework */,
+				A86AD70C1BE2F9E500EA23C8 /* QuartzCore.framework */,
+				A86AD70A1BE2F9DC00EA23C8 /* ImageIO.framework */,
+				A86AD7081BE2F9D500EA23C8 /* Foundation.framework */,
+				A86AD7061BE2F9CB00EA23C8 /* CoreVideo.framework */,
+				A86AD7041BE2F9BF00EA23C8 /* CoreMedia.framework */,
+				A86AD7021BE2F9B600EA23C8 /* CoreGraphics.framework */,
+				A86AD7001BE2F9AC00EA23C8 /* AVFoundation.framework */,
 				A88260E01BE09D8100D7498A /* QRCodeCreat */,
 				A88260FA1BE09D8100D7498A /* QRCodeCreatTests */,
 				A88261051BE09D8100D7498A /* QRCodeCreatUITests */,
 				A88260DF1BE09D8100D7498A /* Products */,
+				CFE9D58BC1C68ABAA7C3BD92 /* Pods */,
+				DC2BE90A7C105F554EF8A51B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +132,16 @@
 		A88260E01BE09D8100D7498A /* QRCodeCreat */ = {
 			isa = PBXGroup;
 			children = (
+				A86AD7561BE343A400EA23C8 /* 694A0F66-B45E-45C6-8C0E-DF3E8833E80B.png */,
 				A88260E41BE09D8100D7498A /* AppDelegate.h */,
 				A88260E51BE09D8100D7498A /* AppDelegate.m */,
+				A837CF231BE1C44600EC3152 /* 1.png */,
 				A88260E71BE09D8100D7498A /* ViewController.h */,
 				A88260E81BE09D8100D7498A /* ViewController.m */,
-				A88260EA1BE09D8100D7498A /* Main.storyboard */,
+				A88261141BE0A9E700D7498A /* UIImage+RoundRect.h */,
+				A88261151BE0A9E700D7498A /* UIImage+RoundRect.m */,
+				A88261171BE0B54500D7498A /* YYQRCode.h */,
+				A88261181BE0B54500D7498A /* YYQRCode.m */,
 				A88260ED1BE09D8100D7498A /* Assets.xcassets */,
 				A88260EF1BE09D8100D7498A /* LaunchScreen.storyboard */,
 				A88260F21BE09D8100D7498A /* Info.plist */,
@@ -140,6 +176,23 @@
 			path = QRCodeCreatUITests;
 			sourceTree = "<group>";
 		};
+		CFE9D58BC1C68ABAA7C3BD92 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				53DA4A19116A032C608808E3 /* Pods.debug.xcconfig */,
+				DE3F2A5B5D0864E9E998883B /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DC2BE90A7C105F554EF8A51B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8A34B6DAFC2FD5C091F7804 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +200,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A882610B1BE09D8100D7498A /* Build configuration list for PBXNativeTarget "QRCodeCreat" */;
 			buildPhases = (
+				08EB2C6566408E98B13CDF46 /* Check Pods Manifest.lock */,
 				A88260DA1BE09D8100D7498A /* Sources */,
 				A88260DB1BE09D8100D7498A /* Frameworks */,
 				A88260DC1BE09D8100D7498A /* Resources */,
+				F66D2E0FC87FD0F881A132AB /* Embed Pods Frameworks */,
+				92B5127F8F27236B01BD7BA6 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -243,9 +299,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A837CF241BE1C44600EC3152 /* 1.png in Resources */,
 				A88260F11BE09D8100D7498A /* LaunchScreen.storyboard in Resources */,
+				A86AD7571BE343A400EA23C8 /* 694A0F66-B45E-45C6-8C0E-DF3E8833E80B.png in Resources */,
 				A88260EE1BE09D8100D7498A /* Assets.xcassets in Resources */,
-				A88260EC1BE09D8100D7498A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,14 +322,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		08EB2C6566408E98B13CDF46 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		92B5127F8F27236B01BD7BA6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F66D2E0FC87FD0F881A132AB /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A88260DA1BE09D8100D7498A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A88261161BE0A9E700D7498A /* UIImage+RoundRect.m in Sources */,
 				A88260E91BE09D8100D7498A /* ViewController.m in Sources */,
 				A88260E61BE09D8100D7498A /* AppDelegate.m in Sources */,
 				A88260E31BE09D8100D7498A /* main.m in Sources */,
+				A88261191BE0B54500D7498A /* YYQRCode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,14 +415,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A88260EA1BE09D8100D7498A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A88260EB1BE09D8100D7498A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A88260EF1BE09D8100D7498A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -411,10 +510,20 @@
 		};
 		A882610C1BE09D8100D7498A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53DA4A19116A032C608808E3 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				HEADER_SEARCH_PATHS = (
+					"$(inheritated)",
+					"$(PODS_ROOT)",
+					"/**",
+				);
 				INFOPLIST_FILE = QRCodeCreat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)";
 				PRODUCT_BUNDLE_IDENTIFIER = HYZ.QRCodeCreat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -422,10 +531,20 @@
 		};
 		A882610D1BE09D8100D7498A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE3F2A5B5D0864E9E998883B /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				HEADER_SEARCH_PATHS = (
+					"$(inheritated)",
+					"$(PODS_ROOT)",
+					"/**",
+				);
 				INFOPLIST_FILE = QRCodeCreat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)";
 				PRODUCT_BUNDLE_IDENTIFIER = HYZ.QRCodeCreat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -498,6 +617,7 @@
 				A882610D1BE09D8100D7498A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A882610E1BE09D8100D7498A /* Build configuration list for PBXNativeTarget "QRCodeCreatTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +626,7 @@
 				A88261101BE09D8100D7498A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A88261111BE09D8100D7498A /* Build configuration list for PBXNativeTarget "QRCodeCreatUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +635,7 @@
 				A88261131BE09D8100D7498A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

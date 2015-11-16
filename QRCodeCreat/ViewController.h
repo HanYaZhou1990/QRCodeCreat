@@ -7,9 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "UIImage+RoundRect.h"
+#import "YYQRCode.h"
+#import <ZXingObjC/ZXingObjC.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UINavigationControllerDelegate, UIImagePickerControllerDelegate>
 
+@property (nonatomic, strong) UIImageView     *codeImageView;
+@property (nonatomic, strong) UIImageView     *codeImageView1;
+@property (nonatomic, strong) ZXCapture       *capture;
 
 @end
 
